@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: smaller;
+  background-color: #e6e8eb;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  padding-inline-start: 20px;
+}
+
+ul > li,
+ol > li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+#main {
+  margin: 0px 40px 0px 40px;
+  text-align: justify;
+}
+
+#hero {
+  background-color: white;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+#title {
+  font-family: "Roboto Mono", monospace;
+  font-size: 4.5rem;
+  padding: 0 10px 20px 10px;
+}
+
+#tribute-info {
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+}
+
+#tribute-info h4{
+  text-align: center;
+  font-size: 1.11rem;
+  margin: 30px 0 0 0;
+}
+
+.tribute-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 912px) {
+  #title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #title {
+    font-size: 1.8rem;
+    line-height: 1.1;
+  }
+  #main {
+    margin: 0px 20px 0px 20px;
+  }
+
+}
